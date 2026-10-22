@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-22T14:00:06.620Z",
+  "entries": [
+    {
+      "id": "examples/coroutines/CoroutineExceptionDemo.kt@6-26",
+      "lang": "kotlin",
+      "src": "examples/coroutines/CoroutineExceptionDemo.kt",
+      "lines": "6-26",
+      "pages": [
+        "02-kotlin-advanced"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/coroutines/StateInDemo.kt@6-41",
+      "lang": "kotlin",
+      "src": "examples/coroutines/StateInDemo.kt",
+      "lines": "6-41",
+      "pages": [
+        "02-kotlin-advanced"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    }
+  ]
+}

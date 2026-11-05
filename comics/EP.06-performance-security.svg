@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101a33"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="840" fill="url(#bg)"/>
+  <polygon points="980,0 1060,0 760,840 680,840" fill="#22d3ee" opacity="0.04"/>
+  <polygon points="150,0 220,0 1040,840 970,840" fill="#a78bfa" opacity="0.03"/>
+
+  <rect x="20" y="14" width="92" height="36" rx="9" fill="#7C3AED"/>
+  <text x="66" y="38" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">EP.06</text>
+  <text x="126" y="40" font-size="26" font-weight="bold" fill="url(#titleGrad)">性能与安全</text>
+  <text x="1180" y="38" text-anchor="end" font-size="13" fill="#64748b">Kotlin &amp; Gradle 漫画剧场 · NEON INK</text>
+  <rect x="20" y="62" width="1160" height="2" rx="1" fill="url(#titleGrad)" opacity="0.6"/>
+
+  <g transform="translate(20,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#22d3ee" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#22d3ee"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">1</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">困境：又慢又裸奔</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#7C3AED"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-13 -16,-13 q-13,0 -16,13 z" fill="#22d3ee"/>
+      <circle cx="15" cy="4" r="6.5" fill="#22d3ee"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="320" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">App 启动要 5 秒，流量</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">还被 Charles 抓得明明白白。</text>
+    <rect x="24" y="152" width="524" height="110" rx="8" fill="#0a0f1c" stroke="#f97316" stroke-opacity="0.45"/>
+    <text x="38" y="174" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">// 问题 1：Application 里同步初始化一切</text>
+    <text x="38" y="192" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">// 问题 2：没用 R8，包 120MB</text>
+    <text x="38" y="210" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">// 问题 3：没做证书固定，中间人可解密</text>
+    <text x="38" y="228" font-size="12.5" fill="#f472b6" font-family="'SF Mono',Consolas,monospace">// 问题 4：密钥硬编码在 strings.xml</text>
+    <text x="38" y="246" font-size="12.5" fill="#fbbf24" font-family="'SF Mono',Consolas,monospace">// → 体验差 + 合规风险 + 被逆向</text>
+    <rect x="24" y="278" width="524" height="52" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="278" width="4" height="52" rx="2" fill="#22d3ee"/>
+    <text x="40" y="300" font-size="13.5" fill="#e2e8f0">性能有基线、安全有清单，</text>
+    <text x="40" y="320" font-size="13.5" fill="#94a3b8">上线前逐条过一遍。</text>
+  </g>
+
+  <g transform="translate(608,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#a78bfa" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#a78bfa"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">2</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">揭秘：GC 与混淆</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#cbd5e1"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-12 -16,-12 q-13,0 -16,12 z" fill="#e2e8f0"/>
+      <circle cx="-5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <path d="M-1,0 L1,0" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="-5" cy="0" r="1.4" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.4" fill="#0b1220"/>
+      <path d="M-8,5 q8,7 16,0 q-2,7 -8,7 q-6,0 -8,-7 z" fill="#e2e8f0"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="330" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">GC 选对、混淆开对，</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">体验和安全一起上。</text>
+    <rect x="32" y="156" width="240" height="70" rx="10" fill="#111a30" stroke="#22d3ee" stroke-opacity="0.4"/>
+    <text x="152" y="178" text-anchor="middle" font-size="14" font-weight="bold" fill="#22d3ee">G1（默认）</text>
+    <text x="48" y="198" font-size="12" fill="#e2e8f0">堆 ≤ 8G，停顿 ~200ms</text>
+    <text x="48" y="216" font-size="12" fill="#e2e8f0">通用微服务首选</text>
+    <rect x="300" y="156" width="240" height="70" rx="10" fill="#111a30" stroke="#a78bfa" stroke-opacity="0.4"/>
+    <text x="420" y="178" text-anchor="middle" font-size="14" font-weight="bold" fill="#a78bfa">ZGC</text>
+    <text x="316" y="198" font-size="12" fill="#e2e8f0">堆 &gt; 16G，停顿 &lt; 1ms</text>
+    <text x="316" y="216" font-size="12" fill="#e2e8f0">大堆低延迟场景</text>
+    <rect x="24" y="240" width="524" height="90" rx="8" fill="#0a0f1c" stroke="#a78bfa" stroke-opacity="0.35"/>
+    <text x="38" y="262" font-size="12.5" fill="#fbbf24" font-family="'SF Mono',Consolas,monospace"># R8 开启（AGP 默认 release 开启）</text>
+    <text x="38" y="280" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">isMinifyEnabled = true</text>
+    <text x="38" y="298" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">isShrinkResources = true</text>
+    <text x="38" y="316" font-size="12.5" fill="#34d399" font-family="'SF Mono',Consolas,monospace"># 反编译只能看到 a.b.c()，体积砍半</text>
+  </g>
+
+  <g transform="translate(20,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#f472b6" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#f472b6"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">3</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">实证：证书固定</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#1d4ed8"/>
+      <path d="M-16,-2 L-11,-13 L-6,-4 L0,-14 L6,-4 L11,-13 L16,-2 Q0,-11 -16,-2 Z" fill="#f97316"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="280" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">只信自家证书，中间人</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">装了根证书也白搭。</text>
+    <rect x="24" y="152" width="524" height="128" rx="8" fill="#0a0f1c" stroke="#f472b6" stroke-opacity="0.35"/>
+    <text x="38" y="174" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">// OkHttp 证书固定（SHA-256 指纹）</text>
+    <text x="38" y="192" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">val spec = CertificatePinner.Builder()</text>
+    <text x="38" y="210" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">  .add("api.example.com", "sha256/...")</text>
+    <text x="38" y="228" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">  .build()</text>
+    <text x="38" y="246" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">val client = OkHttpClient.Builder()</text>
+    <text x="38" y="264" font-size="12.5" fill="#34d399" font-family="'SF Mono',Consolas,monospace">  .certificatePinner(spec).build()</text>
+    <text x="38" y="282" font-size="12.5" fill="#fbbf24" font-family="'SF Mono',Consolas,monospace">// 密钥放 Android Keystore，不出硬件</text>
+    <rect x="24" y="296" width="524" height="46" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="296" width="4" height="46" rx="2" fill="#f472b6"/>
+    <text x="40" y="316" font-size="13.5" fill="#e2e8f0">网络安全配置 + TLS 1.3，</text>
+    <text x="40" y="334" font-size="13.5" fill="#94a3b8">对照 OWASP Mobile Top 10 逐条过。</text>
+  </g>
+
+  <g transform="translate(608,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#f97316" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#f97316"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">4</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">结案：基线 + 清单</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#cbd5e1"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-12 -16,-12 q-13,0 -16,12 z" fill="#e2e8f0"/>
+      <circle cx="-5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <path d="M-1,0 L1,0" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="-5" cy="0" r="1.4" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.4" fill="#0b1220"/>
+      <path d="M-8,5 q8,7 16,0 q-2,7 -8,7 q-6,0 -8,-7 z" fill="#e2e8f0"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="310" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">性能有基线，安全有清单，</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">上线前逐条打勾。</text>
+    <rect x="24" y="154" width="96" height="26" rx="13" fill="#f97316"/>
+    <text x="72" y="172" text-anchor="middle" font-size="13" font-weight="bold" fill="#0b1220">⚠ 坑点</text>
+    <rect x="32" y="200" width="9" height="9" rx="2" fill="#f97316"/>
+    <text x="52" y="209" font-size="14" fill="#e2e8f0">R8 过度混淆导致反射/序列化失败</text>
+    <rect x="32" y="228" width="9" height="9" rx="2" fill="#f97316"/>
+    <text x="52" y="237" font-size="14" fill="#e2e8f0">证书固定忘了备用指纹，更新即瘫痪</text>
+    <rect x="32" y="256" width="9" height="9" rx="2" fill="#f97316"/>
+    <text x="52" y="265" font-size="14" fill="#e2e8f0">密钥硬编码在代码里，反编译即泄露</text>
+    <rect x="24" y="290" width="524" height="50" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="290" width="4" height="50" rx="2" fill="#22d3ee"/>
+    <text x="40" y="311" font-size="13.5" font-weight="bold" fill="#22d3ee">码叔总结</text>
+    <text x="40" y="331" font-size="13.5" fill="#e2e8f0">性能决定体验下限，安全决定生死红线。</text>
+  </g>
+
+  <text x="1180" y="832" text-anchor="end" font-size="11" fill="#475569">NEON INK · kotlin-gradle-enterprise-guide · EP.06</text>
+</svg>

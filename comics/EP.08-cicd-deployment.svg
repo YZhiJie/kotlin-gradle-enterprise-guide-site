@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#101a33"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="840" fill="url(#bg)"/>
+  <polygon points="980,0 1060,0 760,840 680,840" fill="#22d3ee" opacity="0.04"/>
+  <polygon points="150,0 220,0 1040,840 970,840" fill="#a78bfa" opacity="0.03"/>
+
+  <rect x="20" y="14" width="92" height="36" rx="9" fill="#7C3AED"/>
+  <text x="66" y="38" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">EP.08</text>
+  <text x="126" y="40" font-size="26" font-weight="bold" fill="url(#titleGrad)">CI/CD 与部署</text>
+  <text x="1180" y="38" text-anchor="end" font-size="13" fill="#64748b">Kotlin &amp; Gradle 漫画剧场 · NEON INK</text>
+  <rect x="20" y="62" width="1160" height="2" rx="1" fill="url(#titleGrad)" opacity="0.6"/>
+
+  <g transform="translate(20,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#22d3ee" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#22d3ee"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">1</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">困境：手动发布惊魂</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#1d4ed8"/>
+      <path d="M-16,-2 L-11,-13 L-6,-4 L0,-14 L6,-4 L11,-13 L16,-2 Q0,-11 -16,-2 Z" fill="#f97316"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="320" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">本地能跑，线上就炸；</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">每次发布像拆弹。</text>
+    <rect x="24" y="152" width="524" height="110" rx="8" fill="#0a0f1c" stroke="#f97316" stroke-opacity="0.45"/>
+    <text x="38" y="174" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace"># 手动发布流程（全靠记性）</text>
+    <text x="38" y="192" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">1. 本地 ./gradlew build  ← 环境和线上不一样</text>
+    <text x="38" y="210" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">2. scp jar 到服务器      ← 谁传的？哪台机器？</text>
+    <text x="38" y="228" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">3. ssh 重启服务          ← 没有回滚方案</text>
+    <text x="38" y="246" font-size="12.5" fill="#f472b6" font-family="'SF Mono',Consolas,monospace"># 出问题：半夜被叫起来救火</text>
+    <rect x="24" y="278" width="524" height="52" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="278" width="4" height="52" rx="2" fill="#22d3ee"/>
+    <text x="40" y="300" font-size="13.5" fill="#e2e8f0">CI/CD 让发布变成例行公事：</text>
+    <text x="40" y="320" font-size="13.5" fill="#94a3b8">代码合并 → 自动构建测试 → 制品 → 部署。</text>
+  </g>
+
+  <g transform="translate(608,84)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#a78bfa" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#a78bfa"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">2</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">揭秘：流水线五步</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#cbd5e1"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-12 -16,-12 q-13,0 -16,12 z" fill="#e2e8f0"/>
+      <circle cx="-5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <path d="M-1,0 L1,0" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="-5" cy="0" r="1.4" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.4" fill="#0b1220"/>
+      <path d="M-8,5 q8,7 16,0 q-2,7 -8,7 q-6,0 -8,-7 z" fill="#e2e8f0"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="330" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">push 代码，流水线自动</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">跑完五步才让上线。</text>
+    <rect x="24" y="156" width="96" height="34" rx="8" fill="#111a30" stroke="#22d3ee" stroke-opacity="0.5"/>
+    <text x="72" y="178" text-anchor="middle" font-size="12" font-weight="bold" fill="#22d3ee">checkout</text>
+    <polygon points="120,173 128,169 128,177" fill="#64748b"/>
+    <rect x="132" y="156" width="96" height="34" rx="8" fill="#111a30" stroke="#a78bfa" stroke-opacity="0.5"/>
+    <text x="180" y="178" text-anchor="middle" font-size="12" font-weight="bold" fill="#a78bfa">setup JDK</text>
+    <polygon points="228,173 236,169 236,177" fill="#64748b"/>
+    <rect x="240" y="156" width="96" height="34" rx="8" fill="#111a30" stroke="#f472b6" stroke-opacity="0.5"/>
+    <text x="288" y="178" text-anchor="middle" font-size="12" font-weight="bold" fill="#f472b6">build+test</text>
+    <polygon points="336,173 344,169 344,177" fill="#64748b"/>
+    <rect x="348" y="156" width="96" height="34" rx="8" fill="#111a30" stroke="#fbbf24" stroke-opacity="0.5"/>
+    <text x="396" y="178" text-anchor="middle" font-size="12" font-weight="bold" fill="#fbbf24">lint+cov</text>
+    <polygon points="444,173 452,169 452,177" fill="#64748b"/>
+    <rect x="456" y="156" width="92" height="34" rx="8" fill="#111a30" stroke="#34d399" stroke-opacity="0.5"/>
+    <text x="502" y="178" text-anchor="middle" font-size="12" font-weight="bold" fill="#34d399">publish</text>
+    <rect x="24" y="208" width="524" height="122" rx="8" fill="#0a0f1c" stroke="#a78bfa" stroke-opacity="0.35"/>
+    <text x="38" y="230" font-size="12.5" fill="#fbbf24" font-family="'SF Mono',Consolas,monospace"># .github/workflows/ci.yml</text>
+    <text x="38" y="248" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">on: [push, pull_request]</text>
+    <text x="38" y="266" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">jobs:</text>
+    <text x="38" y="284" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">  build:</text>
+    <text x="38" y="302" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">    runs-on: ubuntu-latest</text>
+    <text x="38" y="320" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">    steps: [checkout, setup-java, gradle build]</text>
+  </g>
+
+  <g transform="translate(20,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="380,0 450,0 120,361 50,361" fill="#f472b6" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#f472b6"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">3</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">实证：多阶段镜像</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#7C3AED"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-13 -16,-13 q-13,0 -16,13 z" fill="#22d3ee"/>
+      <circle cx="15" cy="4" r="6.5" fill="#22d3ee"/>
+      <circle cx="-5" cy="0" r="1.7" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.7" fill="#0b1220"/>
+      <path d="M-3,5 q3,3 6,0" stroke="#0b1220" stroke-width="1.3" fill="none"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="280" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">构建镜像里编译，运行</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">镜像只留 JRE，砍体积。</text>
+    <rect x="24" y="152" width="524" height="128" rx="8" fill="#0a0f1c" stroke="#f472b6" stroke-opacity="0.35"/>
+    <text x="38" y="174" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace"># 阶段 1：构建（带 JDK + 源码）</text>
+    <text x="38" y="192" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">FROM eclipse-temurin:21 AS build</text>
+    <text x="38" y="210" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">COPY . . &amp;&amp; ./gradlew bootJar</text>
+    <text x="38" y="228" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace"># 阶段 2：运行（只带 JRE + jar）</text>
+    <text x="38" y="246" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">FROM eclipse-temurin:21-jre</text>
+    <text x="38" y="264" font-size="12.5" fill="#7dd3fc" font-family="'SF Mono',Consolas,monospace">COPY --from=build app.jar app.jar</text>
+    <text x="38" y="282" font-size="12.5" fill="#34d399" font-family="'SF Mono',Consolas,monospace">ENTRYPOINT ["java","-jar","app.jar"]</text>
+    <rect x="24" y="296" width="524" height="46" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="296" width="4" height="46" rx="2" fill="#f472b6"/>
+    <text x="40" y="316" font-size="13.5" fill="#e2e8f0">Jib 不用 Dockerfile 也能构建，</text>
+    <text x="40" y="334" font-size="13.5" fill="#94a3b8">分层缓存 + 无需 Docker 守护进程。</text>
+  </g>
+
+  <g transform="translate(608,462)">
+    <rect width="572" height="361" rx="14" fill="#0e1730" stroke="#223055"/>
+    <polygon points="420,0 480,0 150,361 90,361" fill="#f97316" opacity="0.04"/>
+    <rect x="14" y="13" width="26" height="20" rx="6" fill="#f97316"/>
+    <text x="27" y="28" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1220">4</text>
+    <text x="50" y="29" font-size="17" font-weight="bold" fill="#e2e8f0">结案：不可变 + 可回滚</text>
+    <g transform="translate(52,110)">
+      <rect x="-19" y="14" width="38" height="22" rx="9" fill="#cbd5e1"/>
+      <circle cx="0" cy="-2" r="16" fill="#ffd9b3"/>
+      <path d="M-16,-2 a16,16 0 0 1 32,0 q-3,-12 -16,-12 q-13,0 -16,12 z" fill="#e2e8f0"/>
+      <circle cx="-5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="5" cy="0" r="4" fill="none" stroke="#94a3b8" stroke-width="1.4"/>
+      <path d="M-1,0 L1,0" stroke="#94a3b8" stroke-width="1.4"/>
+      <circle cx="-5" cy="0" r="1.4" fill="#0b1220"/>
+      <circle cx="5" cy="0" r="1.4" fill="#0b1220"/>
+      <path d="M-8,5 q8,7 16,0 q-2,7 -8,7 q-6,0 -8,-7 z" fill="#e2e8f0"/>
+    </g>
+    <polygon points="88,100 74,106 88,112" fill="#f8fafc"/>
+    <rect x="88" y="82" width="310" height="52" rx="10" fill="#f8fafc"/>
+    <text x="102" y="104" font-size="15" fill="#0b1220">镜像不可变，版本可追溯，</text>
+    <text x="102" y="126" font-size="15" fill="#0b1220">出问题一键回滚。</text>
+    <rect x="24" y="154" width="96" height="26" rx="13" fill="#f97316"/>
+    <text x="72" y="172" text-anchor="middle" font-size="13" font-weight="bold" fill="#0b1220">⚠ 坑点</text>
+    <rect x="32" y="200" width="9" height="9" rx="2" fill="#f97316"/>
+    <text x="52" y="209" font-size="14" fill="#e2e8f0">latest 标签不可追溯，必须用版本号</text>
+    <rect x="32" y="228" width="9" height="9" rx="2" fill="#f97316"/>
+    <text x="52" y="237" font-size="14" fill="#e2e8f0">密钥写进镜像 = 公开，用 Secrets</text>
+    <rect x="32" y="256" width="9" height="9" rx="2" fill="#f97316"/>
+    <text x="52" y="265" font-size="14" fill="#e2e8f0">无灰度直接全量，出问题全员受影响</text>
+    <rect x="24" y="290" width="524" height="50" rx="8" fill="#111a30" stroke="#1e2a44"/>
+    <rect x="24" y="290" width="4" height="50" rx="2" fill="#22d3ee"/>
+    <text x="40" y="311" font-size="13.5" font-weight="bold" fill="#22d3ee">码叔总结</text>
+    <text x="40" y="331" font-size="13.5" fill="#e2e8f0">发布是例行公事：自动构建、灰度验证、一键回滚。</text>
+  </g>
+
+  <text x="1180" y="832" text-anchor="end" font-size="11" fill="#475569">NEON INK · kotlin-gradle-enterprise-guide · EP.08</text>
+</svg>

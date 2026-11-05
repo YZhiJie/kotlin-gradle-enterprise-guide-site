@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kotlin &amp; Gradle 漫画剧场 · 霓虹墨 Neon Ink</title>
+  <style>
+    :root {
+      --bg: #0b1220;
+      --panel: #131c2e;
+      --line: #334155;
+      --cyan: #22d3ee;
+      --violet: #a78bfa;
+      --pink: #f472b6;
+      --amber: #fbbf24;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+      padding: 40px 24px 80px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    header h1 {
+      font-size: clamp(26px, 5vw, 38px);
+      background: linear-gradient(90deg, var(--cyan), var(--violet), var(--pink));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 20px;
+      max-width: 1120px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 2px solid var(--line);
+      border-radius: 14px;
+      overflow: hidden;
+      transition: transform .18s ease, border-color .18s ease;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: var(--cyan);
+    }
+
+    .thumb {
+      width: 100%;
+      aspect-ratio: 10 / 7;
+      display: block;
+      background: #0f172a;
+      object-fit: cover;
+    }
+
+    .meta {
+      padding: 14px 16px 16px;
+    }
+
+    .meta .ep {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .08em;
+      color: var(--cyan);
+      margin-bottom: 4px;
+    }
+
+    .meta .title {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .meta .links {
+      display: flex;
+      gap: 14px;
+      font-size: 13px;
+    }
+
+    .meta .links a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+
+    .meta .links a:hover {
+      color: var(--cyan);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 64px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Kotlin &amp; Gradle 漫画剧场</h1>
+    <p>霓虹墨 Neon Ink · 全 9 话 · 像素酱 × 标签君 × 码叔</p>
+  </header>
+
+  <div class="grid" id="grid"></div>
+
+  <footer>每话 = SVG 原画 + 讲解 MD ｜ 点击卡片看原画，讲解含剧情 / 拆解 / 坑点 / 自测</footer>
+
+  <script>
+    const EPISODES = [
+      { ep: "EP.01", slug: "EP.01-null-safety-modeling", title: "空安全与数据建模" },
+      { ep: "EP.02", slug: "EP.02-coroutines-structured", title: "协程与结构化并发" },
+      { ep: "EP.03", slug: "EP.03-gradle-build-system", title: "Gradle 构建体系" },
+      { ep: "EP.04", slug: "EP.04-jvm-backend", title: "JVM 后端开发" },
+      { ep: "EP.05", slug: "EP.05-android-enterprise", title: "Android 企业开发" },
+      { ep: "EP.06", slug: "EP.06-performance-security", title: "性能与安全" },
+      { ep: "EP.07", slug: "EP.07-testing-pyramid", title: "测试金字塔" },
+      { ep: "EP.08", slug: "EP.08-cicd-deployment", title: "CI/CD 与部署" },
+      { ep: "EP.09", slug: "EP.09-team-collaboration", title: "团队协作规范" }
+    ];
+
+    const grid = document.getElementById("grid");
+    for (const e of EPISODES) {
+      const svg = `${e.slug}.svg`;
+      const md = `${e.slug}.md`;
+      const card = document.createElement("a");
+      card.className = "card";
+      card.href = svg;
+      card.target = "_blank";
+      card.innerHTML = `
+      <img class="thumb" src="${svg}" alt="${e.ep} ${e.title}" loading="lazy">
+      <div class="meta">
+        <div class="ep">${e.ep}</div>
+        <div class="title">${e.title}</div>
+        <div class="links">
+          <a href="${svg}" target="_blank">原画 SVG</a>
+          <a href="${md}" target="_blank">讲解 MD</a>
+        </div>
+      </div>`;
+      grid.appendChild(card);
+    }
+  </script>
+</body>
+
+</html>

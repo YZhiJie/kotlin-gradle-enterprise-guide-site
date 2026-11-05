@@ -1,0 +1,1034 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-05T06:11:23.733Z",
+  "entries": [
+    {
+      "id": "examples/gradle-demo/build-logic/convention/src/main/kotlin/shop/HelloPlugin.kt",
+      "lang": "kotlin",
+      "src": "examples/gradle-demo/build-logic/convention/src/main/kotlin/shop/HelloPlugin.kt",
+      "lines": "all",
+      "pages": [
+        "03-gradle-build",
+        "mastery-gradle-deep-dive"
+      ],
+      "runner": null,
+      "runnerReason": "multi-module-gradle-project"
+    },
+    {
+      "id": "examples/gradle-demo/build-logic/convention/src/main/kotlin/shop/BuildSummaryService.kt",
+      "lang": "kotlin",
+      "src": "examples/gradle-demo/build-logic/convention/src/main/kotlin/shop/BuildSummaryService.kt",
+      "lines": "all",
+      "pages": [
+        "03-gradle-build",
+        "mastery-gradle-deep-dive"
+      ],
+      "runner": null,
+      "runnerReason": "multi-module-gradle-project"
+    },
+    {
+      "id": "examples/gradle-demo/build-logic/convention/src/main/kotlin/shop/KotlinJvmConventionPlugin.kt",
+      "lang": "kotlin",
+      "src": "examples/gradle-demo/build-logic/convention/src/main/kotlin/shop/KotlinJvmConventionPlugin.kt",
+      "lines": "all",
+      "pages": [
+        "03-gradle-build"
+      ],
+      "runner": null,
+      "runnerReason": "multi-module-gradle-project"
+    },
+    {
+      "id": "examples/gradle-demo/build-logic/settings.gradle.kts",
+      "lang": "kotlin",
+      "src": "examples/gradle-demo/build-logic/settings.gradle.kts",
+      "lines": "all",
+      "pages": [
+        "03-gradle-build"
+      ],
+      "runner": null,
+      "runnerReason": "multi-module-gradle-project"
+    },
+    {
+      "id": "examples/gradle-demo/build-logic/convention/build.gradle.kts",
+      "lang": "kotlin",
+      "src": "examples/gradle-demo/build-logic/convention/build.gradle.kts",
+      "lines": "all",
+      "pages": [
+        "03-gradle-build"
+      ],
+      "runner": null,
+      "runnerReason": "multi-module-gradle-project"
+    },
+    {
+      "id": "examples/gradle-demo/build-logic/convention/src/test/kotlin/shop/HelloPluginTest.kt",
+      "lang": "kotlin",
+      "src": "examples/gradle-demo/build-logic/convention/src/test/kotlin/shop/HelloPluginTest.kt",
+      "lines": "all",
+      "pages": [
+        "03-gradle-build",
+        "mastery-gradle-deep-dive"
+      ],
+      "runner": null,
+      "runnerReason": "multi-module-gradle-project"
+    },
+    {
+      "id": "examples/coroutines/CoroutineExceptionDemo.kt@6-26",
+      "lang": "kotlin",
+      "src": "examples/coroutines/CoroutineExceptionDemo.kt",
+      "lines": "6-26",
+      "pages": [
+        "02-kotlin-advanced"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/coroutines/CancellationCleanupDemo.kt",
+      "lang": "kotlin",
+      "src": "examples/coroutines/CancellationCleanupDemo.kt",
+      "lines": "all",
+      "pages": [
+        "02-kotlin-advanced",
+        "mastery-coroutines-deep-dive"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/coroutines/DebuggingDemo.kt",
+      "lang": "kotlin",
+      "src": "examples/coroutines/DebuggingDemo.kt",
+      "lines": "all",
+      "pages": [
+        "02-kotlin-advanced",
+        "mastery-coroutines-deep-dive"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/coroutines/StateInDemo.kt@6-41",
+      "lang": "kotlin",
+      "src": "examples/coroutines/StateInDemo.kt",
+      "lines": "6-41",
+      "pages": [
+        "02-kotlin-advanced"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/coroutines/BackpressureDemo.kt",
+      "lang": "kotlin",
+      "src": "examples/coroutines/BackpressureDemo.kt",
+      "lines": "all",
+      "pages": [
+        "02-kotlin-advanced",
+        "mastery-coroutines-deep-dive"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/coroutines/ConcurrencyControlDemo.kt",
+      "lang": "kotlin",
+      "src": "examples/coroutines/ConcurrencyControlDemo.kt",
+      "lines": "all",
+      "pages": [
+        "02-kotlin-advanced",
+        "mastery-coroutines-deep-dive"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/coroutines/CallbackFlowDemo.kt",
+      "lang": "kotlin",
+      "src": "examples/coroutines/CallbackFlowDemo.kt",
+      "lines": "all",
+      "pages": [
+        "02-kotlin-advanced",
+        "mastery-coroutines-deep-dive"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/coroutines/InteropDemo.kt",
+      "lang": "kotlin",
+      "src": "examples/coroutines/InteropDemo.kt",
+      "lines": "all",
+      "pages": [
+        "02-kotlin-advanced",
+        "mastery-coroutines-deep-dive"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/backend-service/src/main/kotlin/com/example/backend/ShopMetrics.kt",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/main/kotlin/com/example/backend/ShopMetrics.kt",
+      "lines": "all",
+      "pages": [
+        "04-jvm-backend",
+        "mastery-observability"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/backend-service/src/main/kotlin/com/example/backend/OrderService.kt",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/main/kotlin/com/example/backend/OrderService.kt",
+      "lines": "all",
+      "pages": [
+        "04-jvm-backend",
+        "mastery-observability"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/backend-service/src/main/kotlin/com/example/backend/OrderController.kt",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/main/kotlin/com/example/backend/OrderController.kt",
+      "lines": "all",
+      "pages": [
+        "04-jvm-backend",
+        "mastery-observability"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/backend-service/src/main/kotlin/com/example/backend/observability/TraceContextPropagation.kt",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/main/kotlin/com/example/backend/observability/TraceContextPropagation.kt",
+      "lines": "all",
+      "pages": [
+        "04-jvm-backend",
+        "mastery-observability"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/backend-service/src/main/kotlin/com/example/backend/outbox/OutboxRelay.kt",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/main/kotlin/com/example/backend/outbox/OutboxRelay.kt",
+      "lines": "all",
+      "pages": [
+        "04-jvm-backend",
+        "mastery-messaging-consistency"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/backend-service/src/main/kotlin/com/example/backend/outbox/OrderEventConsumerService.kt",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/main/kotlin/com/example/backend/outbox/OrderEventConsumerService.kt",
+      "lines": "all",
+      "pages": [
+        "04-jvm-backend",
+        "mastery-messaging-consistency"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/backend-service/src/main/kotlin/com/example/backend/MdcContextElement.kt",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/main/kotlin/com/example/backend/MdcContextElement.kt",
+      "lines": "all",
+      "pages": [
+        "04-jvm-backend",
+        "mastery-observability"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/backend-service/src/main/kotlin/com/example/backend/SloBudget.kt",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/main/kotlin/com/example/backend/SloBudget.kt",
+      "lines": "all",
+      "pages": [
+        "04-jvm-backend",
+        "mastery-observability"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/backend-service/src/main/kotlin/com/example/backend/order/OrderRepository.kt",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/main/kotlin/com/example/backend/order/OrderRepository.kt",
+      "lines": "all",
+      "pages": [
+        "04-jvm-backend"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/backend-service/src/main/kotlin/com/example/backend/security/SecurityConfig.kt",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/main/kotlin/com/example/backend/security/SecurityConfig.kt",
+      "lines": "all",
+      "pages": [
+        "04-jvm-backend",
+        "06-performance-security",
+        "mastery-security-supply-chain"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/backend-service/src/main/kotlin/com/example/backend/web/ApiExceptionHandler.kt",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/main/kotlin/com/example/backend/web/ApiExceptionHandler.kt",
+      "lines": "all",
+      "pages": [
+        "04-jvm-backend",
+        "06-performance-security"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/backend-service/src/main/kotlin/com/example/backend/outbox/OrderEventPublisher.kt",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/main/kotlin/com/example/backend/outbox/OrderEventPublisher.kt",
+      "lines": "all",
+      "pages": [
+        "04-jvm-backend",
+        "mastery-messaging-consistency"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/gradle-demo/core/build.gradle.kts",
+      "lang": "kotlin",
+      "src": "examples/gradle-demo/core/build.gradle.kts",
+      "lines": "all",
+      "pages": [
+        "07-testing-quality"
+      ],
+      "runner": null,
+      "runnerReason": "multi-module-gradle-project"
+    },
+    {
+      "id": "examples/gradle-demo/core/src/testFixtures/kotlin/demo/core/CartFixtures.kt",
+      "lang": "kotlin",
+      "src": "examples/gradle-demo/core/src/testFixtures/kotlin/demo/core/CartFixtures.kt",
+      "lines": "all",
+      "pages": [
+        "07-testing-quality"
+      ],
+      "runner": null,
+      "runnerReason": "multi-module-gradle-project"
+    },
+    {
+      "id": "examples/gradle-demo/app/build.gradle.kts",
+      "lang": "kotlin",
+      "src": "examples/gradle-demo/app/build.gradle.kts",
+      "lines": "all",
+      "pages": [
+        "07-testing-quality"
+      ],
+      "runner": null,
+      "runnerReason": "multi-module-gradle-project"
+    },
+    {
+      "id": "examples/backend-service/src/test/kotlin/com/example/backend/architecture/ArchitectureTest.kt",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/test/kotlin/com/example/backend/architecture/ArchitectureTest.kt",
+      "lines": "all",
+      "pages": [
+        "07-testing-quality"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/gradle-demo/core/src/main/kotlin/demo/core/PriceCalculator.kt",
+      "lang": "kotlin",
+      "src": "examples/gradle-demo/core/src/main/kotlin/demo/core/PriceCalculator.kt",
+      "lines": "all",
+      "pages": [
+        "07-testing-quality"
+      ],
+      "runner": null,
+      "runnerReason": "multi-module-gradle-project"
+    },
+    {
+      "id": "examples/backend-service/src/test/kotlin/com/example/backend/FlakyQuarantineDemoTest.kt",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/test/kotlin/com/example/backend/FlakyQuarantineDemoTest.kt",
+      "lines": "all",
+      "pages": [
+        "07-testing-quality"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/backend-service/src/test/kotlin/com/example/backend/contract/OrderPactProviderTest.kt",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/test/kotlin/com/example/backend/contract/OrderPactProviderTest.kt",
+      "lines": "all",
+      "pages": [
+        "07-testing-quality"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/android-app/app/src/androidTest/kotlin/com/example/guide/SmokeComposeTest.kt",
+      "lang": "kotlin",
+      "src": "examples/android-app/app/src/androidTest/kotlin/com/example/guide/SmokeComposeTest.kt",
+      "lines": "all",
+      "pages": [
+        "07-testing-quality"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/profiling/src/main/kotlin/profiling/Workloads.kt@65-79",
+      "lang": "kotlin",
+      "src": "examples/profiling/src/main/kotlin/profiling/Workloads.kt",
+      "lines": "65-79",
+      "pages": [
+        "06-performance-security"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/profiling/build.gradle.kts@20-27",
+      "lang": "kotlin",
+      "src": "examples/profiling/build.gradle.kts",
+      "lines": "20-27",
+      "pages": [
+        "06-performance-security"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/backend-service/src/main/kotlin/com/example/backend/ShopMetrics.kt@22-47",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/main/kotlin/com/example/backend/ShopMetrics.kt",
+      "lines": "22-47",
+      "pages": [
+        "06-performance-security",
+        "mastery-profiling"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/android-app/settings.gradle.kts@24-35",
+      "lang": "kotlin",
+      "src": "examples/android-app/settings.gradle.kts",
+      "lines": "24-35",
+      "pages": [
+        "05-android-enterprise"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/core/data/api/src/main/kotlin/com/example/guide/core/data/api/TodoRepository.kt",
+      "lang": "kotlin",
+      "src": "examples/android-app/core/data/api/src/main/kotlin/com/example/guide/core/data/api/TodoRepository.kt",
+      "lines": "all",
+      "pages": [
+        "05-android-enterprise",
+        "mastery-android-modularization"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/core/data/impl/build.gradle.kts",
+      "lang": "kotlin",
+      "src": "examples/android-app/core/data/impl/build.gradle.kts",
+      "lines": "all",
+      "pages": [
+        "05-android-enterprise",
+        "mastery-android-modularization"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/feature/todo/impl/build.gradle.kts",
+      "lang": "kotlin",
+      "src": "examples/android-app/feature/todo/impl/build.gradle.kts",
+      "lines": "all",
+      "pages": [
+        "05-android-enterprise",
+        "mastery-android-modularization"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/build-logic/convention/src/main/kotlin/shop/ModuleBoundaryPlugin.kt@20-105",
+      "lang": "kotlin",
+      "src": "examples/android-app/build-logic/convention/src/main/kotlin/shop/ModuleBoundaryPlugin.kt",
+      "lines": "20-105",
+      "pages": [
+        "05-android-enterprise"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/build-logic/settings.gradle.kts",
+      "lang": "kotlin",
+      "src": "examples/android-app/build-logic/settings.gradle.kts",
+      "lines": "all",
+      "pages": [
+        "05-android-enterprise",
+        "mastery-android-modularization"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/build-logic/convention/build.gradle.kts@1-25",
+      "lang": "kotlin",
+      "src": "examples/android-app/build-logic/convention/build.gradle.kts",
+      "lines": "1-25",
+      "pages": [
+        "05-android-enterprise"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/build-logic/convention/src/main/kotlin/shop/AndroidLibraryConventionPlugin.kt",
+      "lang": "kotlin",
+      "src": "examples/android-app/build-logic/convention/src/main/kotlin/shop/AndroidLibraryConventionPlugin.kt",
+      "lines": "all",
+      "pages": [
+        "05-android-enterprise",
+        "mastery-android-modularization"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/core/model/build.gradle.kts",
+      "lang": "kotlin",
+      "src": "examples/android-app/core/model/build.gradle.kts",
+      "lines": "all",
+      "pages": [
+        "05-android-enterprise",
+        "mastery-android-modularization"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/core/data/impl/src/main/kotlin/com/example/guide/core/data/impl/di/DataModule.kt",
+      "lang": "kotlin",
+      "src": "examples/android-app/core/data/impl/src/main/kotlin/com/example/guide/core/data/impl/di/DataModule.kt",
+      "lines": "all",
+      "pages": [
+        "05-android-enterprise",
+        "mastery-android-modularization"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/feature/todo/impl/src/main/kotlin/com/example/guide/feature/todo/impl/di/TodoModule.kt",
+      "lang": "kotlin",
+      "src": "examples/android-app/feature/todo/impl/src/main/kotlin/com/example/guide/feature/todo/impl/di/TodoModule.kt",
+      "lines": "all",
+      "pages": [
+        "05-android-enterprise",
+        "mastery-android-modularization"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/app/src/main/kotlin/com/example/guide/GuideApplication.kt",
+      "lang": "kotlin",
+      "src": "examples/android-app/app/src/main/kotlin/com/example/guide/GuideApplication.kt",
+      "lines": "all",
+      "pages": [
+        "05-android-enterprise",
+        "mastery-android-modularization"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/app/src/demo/kotlin/com/example/guide/di/FlavorModules.kt",
+      "lang": "kotlin",
+      "src": "examples/android-app/app/src/demo/kotlin/com/example/guide/di/FlavorModules.kt",
+      "lines": "all",
+      "pages": [
+        "05-android-enterprise"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/feature/todo/impl/src/main/kotlin/com/example/guide/feature/todo/impl/TodoScreen.kt@28-45",
+      "lang": "kotlin",
+      "src": "examples/android-app/feature/todo/impl/src/main/kotlin/com/example/guide/feature/todo/impl/TodoScreen.kt",
+      "lines": "28-45",
+      "pages": [
+        "05-android-enterprise"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/app/build.gradle.kts",
+      "lang": "kotlin",
+      "src": "examples/android-app/app/build.gradle.kts",
+      "lines": "all",
+      "pages": [
+        "05-android-enterprise",
+        "mastery-android-modularization"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/app/src/demo/kotlin/com/example/guide/navigation/AppNavHost.kt",
+      "lang": "kotlin",
+      "src": "examples/android-app/app/src/demo/kotlin/com/example/guide/navigation/AppNavHost.kt",
+      "lines": "all",
+      "pages": [
+        "05-android-enterprise",
+        "mastery-android-modularization"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/app/src/full/kotlin/com/example/guide/navigation/AppNavHost.kt",
+      "lang": "kotlin",
+      "src": "examples/android-app/app/src/full/kotlin/com/example/guide/navigation/AppNavHost.kt",
+      "lines": "all",
+      "pages": [
+        "05-android-enterprise"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/core/testing/build.gradle.kts",
+      "lang": "kotlin",
+      "src": "examples/android-app/core/testing/build.gradle.kts",
+      "lines": "all",
+      "pages": [
+        "05-android-enterprise",
+        "mastery-android-modularization"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/feature/todo/impl/build.gradle.kts@20-22",
+      "lang": "kotlin",
+      "src": "examples/android-app/feature/todo/impl/build.gradle.kts",
+      "lines": "20-22",
+      "pages": [
+        "05-android-enterprise"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/core/data/impl/src/main/kotlin/com/example/guide/core/data/impl/db/AppDatabase.kt",
+      "lang": "kotlin",
+      "src": "examples/android-app/core/data/impl/src/main/kotlin/com/example/guide/core/data/impl/db/AppDatabase.kt",
+      "lines": "all",
+      "pages": [
+        "05-android-enterprise",
+        "mastery-android-modularization"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/core/data/impl/src/main/kotlin/com/example/guide/core/data/impl/db/TodoEntity.kt",
+      "lang": "kotlin",
+      "src": "examples/android-app/core/data/impl/src/main/kotlin/com/example/guide/core/data/impl/db/TodoEntity.kt",
+      "lines": "all",
+      "pages": [
+        "05-android-enterprise",
+        "mastery-android-modularization"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/core/data/impl/src/main/kotlin/com/example/guide/core/data/impl/di/DataModule.kt@20-25",
+      "lang": "kotlin",
+      "src": "examples/android-app/core/data/impl/src/main/kotlin/com/example/guide/core/data/impl/di/DataModule.kt",
+      "lines": "20-25",
+      "pages": [
+        "05-android-enterprise"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/core/data/impl/src/main/kotlin/com/example/guide/core/data/impl/settings/DataStoreSettingsRepository.kt",
+      "lang": "kotlin",
+      "src": "examples/android-app/core/data/impl/src/main/kotlin/com/example/guide/core/data/impl/settings/DataStoreSettingsRepository.kt",
+      "lines": "all",
+      "pages": [
+        "05-android-enterprise",
+        "mastery-android-modularization"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/feature/todo/impl/src/main/kotlin/com/example/guide/feature/todo/impl/TodoViewModel.kt@39-55",
+      "lang": "kotlin",
+      "src": "examples/android-app/feature/todo/impl/src/main/kotlin/com/example/guide/feature/todo/impl/TodoViewModel.kt",
+      "lines": "39-55",
+      "pages": [
+        "05-android-enterprise"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/core/data/impl/src/test/kotlin/com/example/guide/core/data/impl/settings/DataStoreSettingsRepositoryTest.kt",
+      "lang": "kotlin",
+      "src": "examples/android-app/core/data/impl/src/test/kotlin/com/example/guide/core/data/impl/settings/DataStoreSettingsRepositoryTest.kt",
+      "lines": "all",
+      "pages": [
+        "05-android-enterprise",
+        "mastery-android-modularization"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/settings.gradle.kts",
+      "lang": "kotlin",
+      "src": "examples/android-app/settings.gradle.kts",
+      "lines": "all",
+      "pages": [
+        "mastery-android-modularization"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/core/data/api/src/main/kotlin/com/example/guide/core/data/api/SettingsRepository.kt",
+      "lang": "kotlin",
+      "src": "examples/android-app/core/data/api/src/main/kotlin/com/example/guide/core/data/api/SettingsRepository.kt",
+      "lines": "all",
+      "pages": [
+        "mastery-android-modularization"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/build-logic/convention/build.gradle.kts",
+      "lang": "kotlin",
+      "src": "examples/android-app/build-logic/convention/build.gradle.kts",
+      "lines": "all",
+      "pages": [
+        "mastery-android-modularization"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/build-logic/convention/src/main/kotlin/shop/ModuleBoundaryPlugin.kt",
+      "lang": "kotlin",
+      "src": "examples/android-app/build-logic/convention/src/main/kotlin/shop/ModuleBoundaryPlugin.kt",
+      "lines": "all",
+      "pages": [
+        "mastery-android-modularization"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/feature/todo/impl/src/test/kotlin/com/example/guide/feature/todo/impl/TodoViewModelTest.kt",
+      "lang": "kotlin",
+      "src": "examples/android-app/feature/todo/impl/src/test/kotlin/com/example/guide/feature/todo/impl/TodoViewModelTest.kt",
+      "lines": "all",
+      "pages": [
+        "mastery-android-modularization"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/android-app/feature/todo/impl/src/main/kotlin/com/example/guide/feature/todo/impl/TodoViewModel.kt",
+      "lang": "kotlin",
+      "src": "examples/android-app/feature/todo/impl/src/main/kotlin/com/example/guide/feature/todo/impl/TodoViewModel.kt",
+      "lines": "all",
+      "pages": [
+        "mastery-android-modularization"
+      ],
+      "runner": null,
+      "runnerReason": "multi-file-android-project"
+    },
+    {
+      "id": "examples/kmp-app/settings.gradle.kts",
+      "lang": "kotlin",
+      "src": "examples/kmp-app/settings.gradle.kts",
+      "lines": "all",
+      "pages": [
+        "mastery-kmp"
+      ],
+      "runner": null,
+      "runnerReason": "kotlin-multiplatform-project"
+    },
+    {
+      "id": "examples/kmp-app/shared/build.gradle.kts",
+      "lang": "kotlin",
+      "src": "examples/kmp-app/shared/build.gradle.kts",
+      "lines": "all",
+      "pages": [
+        "mastery-kmp"
+      ],
+      "runner": null,
+      "runnerReason": "kotlin-multiplatform-project"
+    },
+    {
+      "id": "examples/kmp-app/shared/src/commonMain/kotlin/com/example/kmp/shared/OrderModels.kt",
+      "lang": "kotlin",
+      "src": "examples/kmp-app/shared/src/commonMain/kotlin/com/example/kmp/shared/OrderModels.kt",
+      "lines": "all",
+      "pages": [
+        "mastery-kmp"
+      ],
+      "runner": null,
+      "runnerReason": "kotlin-multiplatform-project"
+    },
+    {
+      "id": "examples/kmp-app/shared/src/commonMain/kotlin/com/example/kmp/shared/OrderCodec.kt",
+      "lang": "kotlin",
+      "src": "examples/kmp-app/shared/src/commonMain/kotlin/com/example/kmp/shared/OrderCodec.kt",
+      "lines": "all",
+      "pages": [
+        "mastery-kmp"
+      ],
+      "runner": null,
+      "runnerReason": "kotlin-multiplatform-project"
+    },
+    {
+      "id": "examples/kmp-app/shared/src/commonMain/kotlin/com/example/kmp/shared/Platform.kt",
+      "lang": "kotlin",
+      "src": "examples/kmp-app/shared/src/commonMain/kotlin/com/example/kmp/shared/Platform.kt",
+      "lines": "all",
+      "pages": [
+        "mastery-kmp"
+      ],
+      "runner": null,
+      "runnerReason": "kotlin-multiplatform-project"
+    },
+    {
+      "id": "examples/kmp-app/shared/src/commonMain/kotlin/com/example/kmp/shared/OrderApi.kt",
+      "lang": "kotlin",
+      "src": "examples/kmp-app/shared/src/commonMain/kotlin/com/example/kmp/shared/OrderApi.kt",
+      "lines": "all",
+      "pages": [
+        "mastery-kmp"
+      ],
+      "runner": null,
+      "runnerReason": "kotlin-multiplatform-project"
+    },
+    {
+      "id": "examples/kmp-app/shared/src/jvmMain/kotlin/com/example/kmp/shared/Platform.jvm.kt",
+      "lang": "kotlin",
+      "src": "examples/kmp-app/shared/src/jvmMain/kotlin/com/example/kmp/shared/Platform.jvm.kt",
+      "lines": "all",
+      "pages": [
+        "mastery-kmp"
+      ],
+      "runner": null,
+      "runnerReason": "kotlin-multiplatform-project"
+    },
+    {
+      "id": "examples/kmp-app/shared/src/iosMain/kotlin/com/example/kmp/shared/Platform.ios.kt",
+      "lang": "kotlin",
+      "src": "examples/kmp-app/shared/src/iosMain/kotlin/com/example/kmp/shared/Platform.ios.kt",
+      "lines": "all",
+      "pages": [
+        "mastery-kmp"
+      ],
+      "runner": null,
+      "runnerReason": "kotlin-multiplatform-project"
+    },
+    {
+      "id": "examples/kmp-app/composeApp/build.gradle.kts",
+      "lang": "kotlin",
+      "src": "examples/kmp-app/composeApp/build.gradle.kts",
+      "lines": "all",
+      "pages": [
+        "mastery-kmp"
+      ],
+      "runner": null,
+      "runnerReason": "kotlin-multiplatform-project"
+    },
+    {
+      "id": "examples/kmp-app/composeApp/src/commonMain/kotlin/com/example/kmp/App.kt",
+      "lang": "kotlin",
+      "src": "examples/kmp-app/composeApp/src/commonMain/kotlin/com/example/kmp/App.kt",
+      "lines": "all",
+      "pages": [
+        "mastery-kmp"
+      ],
+      "runner": null,
+      "runnerReason": "kotlin-multiplatform-project"
+    },
+    {
+      "id": "examples/kmp-app/composeApp/src/androidMain/kotlin/com/example/kmp/MainActivity.kt",
+      "lang": "kotlin",
+      "src": "examples/kmp-app/composeApp/src/androidMain/kotlin/com/example/kmp/MainActivity.kt",
+      "lines": "all",
+      "pages": [
+        "mastery-kmp"
+      ],
+      "runner": null,
+      "runnerReason": "kotlin-multiplatform-project"
+    },
+    {
+      "id": "examples/kmp-app/composeApp/src/desktopMain/kotlin/com/example/kmp/main.kt",
+      "lang": "kotlin",
+      "src": "examples/kmp-app/composeApp/src/desktopMain/kotlin/com/example/kmp/main.kt",
+      "lines": "all",
+      "pages": [
+        "mastery-kmp"
+      ],
+      "runner": null,
+      "runnerReason": "kotlin-multiplatform-project"
+    },
+    {
+      "id": "examples/kmp-app/shared/src/commonTest/kotlin/com/example/kmp/shared/OrderCodecTest.kt",
+      "lang": "kotlin",
+      "src": "examples/kmp-app/shared/src/commonTest/kotlin/com/example/kmp/shared/OrderCodecTest.kt",
+      "lines": "all",
+      "pages": [
+        "mastery-kmp"
+      ],
+      "runner": null,
+      "runnerReason": "kotlin-multiplatform-project"
+    },
+    {
+      "id": "examples/gradle-demo/build-logic/convention/src/main/kotlin/shop/SourceDigestTask.kt",
+      "lang": "kotlin",
+      "src": "examples/gradle-demo/build-logic/convention/src/main/kotlin/shop/SourceDigestTask.kt",
+      "lines": "all",
+      "pages": [
+        "mastery-gradle-deep-dive"
+      ],
+      "runner": null,
+      "runnerReason": "multi-module-gradle-project"
+    },
+    {
+      "id": "examples/backend-service/src/main/kotlin/com/example/backend/OrderService.kt@46-103",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/main/kotlin/com/example/backend/OrderService.kt",
+      "lines": "46-103",
+      "pages": [
+        "mastery-messaging-consistency"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/backend-service/src/main/kotlin/com/example/backend/outbox/OutboxRepository.kt@33-92",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/main/kotlin/com/example/backend/outbox/OutboxRepository.kt",
+      "lines": "33-92",
+      "pages": [
+        "mastery-messaging-consistency"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/backend-service/src/main/kotlin/com/example/backend/outbox/OrderEventTransports.kt",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/main/kotlin/com/example/backend/outbox/OrderEventTransports.kt",
+      "lines": "all",
+      "pages": [
+        "mastery-messaging-consistency"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/backend-service/src/test/kotlin/com/example/backend/OutboxConsistencyTest.kt",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/test/kotlin/com/example/backend/OutboxConsistencyTest.kt",
+      "lines": "all",
+      "pages": [
+        "mastery-messaging-consistency"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/backend-service/src/main/kotlin/com/example/backend/outbox/OutboxController.kt",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/main/kotlin/com/example/backend/outbox/OutboxController.kt",
+      "lines": "all",
+      "pages": [
+        "mastery-messaging-consistency"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/backend-service/src/main/kotlin/com/example/backend/outbox/OutboxReconciliationService.kt",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/main/kotlin/com/example/backend/outbox/OutboxReconciliationService.kt",
+      "lines": "all",
+      "pages": [
+        "mastery-messaging-consistency"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/backend-service/src/main/kotlin/com/example/backend/outbox/DeadLetterAlerter.kt",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/main/kotlin/com/example/backend/outbox/DeadLetterAlerter.kt",
+      "lines": "all",
+      "pages": [
+        "mastery-messaging-consistency"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    },
+    {
+      "id": "examples/backend-service/src/main/kotlin/com/example/backend/observability/OtlpExporterConfiguration.kt",
+      "lang": "kotlin",
+      "src": "examples/backend-service/src/main/kotlin/com/example/backend/observability/OtlpExporterConfiguration.kt",
+      "lines": "all",
+      "pages": [
+        "mastery-observability"
+      ],
+      "runner": "kotlin-playground",
+      "runnerReason": null
+    }
+  ]
+}

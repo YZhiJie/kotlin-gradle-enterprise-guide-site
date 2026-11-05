@@ -1,0 +1,18 @@
+{
+  "series": "Kotlin & Gradle 漫画剧场 · 霓虹墨 Neon Ink",
+  "version": "1.0.0",
+  "canvas": { "width": 1200, "height": 840 },
+  "panels": { "count": 4, "width": 572, "height": 361 },
+  "characters": ["像素酱", "标签君", "码叔"],
+  "episodes": [
+    { "ep": 1, "slug": "EP.01-null-safety-modeling", "title": "空安全与数据建模", "part": "01-kotlin-basics.md" },
+    { "ep": 2, "slug": "EP.02-coroutines-structured", "title": "协程与结构化并发", "part": "02-kotlin-advanced.md" },
+    { "ep": 3, "slug": "EP.03-gradle-build-system", "title": "Gradle 构建体系", "part": "03-gradle-build.md" },
+    { "ep": 4, "slug": "EP.04-jvm-backend", "title": "JVM 后端开发", "part": "04-jvm-backend.md" },
+    { "ep": 5, "slug": "EP.05-android-enterprise", "title": "Android 企业开发", "part": "05-android-enterprise.md" },
+    { "ep": 6, "slug": "EP.06-performance-security", "title": "性能与安全", "part": "06-performance-security.md" },
+    { "ep": 7, "slug": "EP.07-testing-pyramid", "title": "测试金字塔", "part": "07-testing-quality.md" },
+    { "ep": 8, "slug": "EP.08-cicd-deployment", "title": "CI/CD 与部署", "part": "08-cicd-deployment.md" },
+    { "ep": 9, "slug": "EP.09-team-collaboration", "title": "团队协作规范", "part": "09-team-collaboration.md" }
+  ]
+}
